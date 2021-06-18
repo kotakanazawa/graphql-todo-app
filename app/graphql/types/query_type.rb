@@ -4,5 +4,6 @@ module Types
     include GraphQL::Types::Relay::HasNodesField
 
     field :tasks, resolver: Resolvers::Tasks
+    field :posts, resolver: Resolvers::Posts
   end
 end
