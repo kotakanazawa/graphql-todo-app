@@ -5,5 +5,6 @@ module Types
 
     field :tasks, resolver: Resolvers::Tasks
     field :posts, resolver: Resolvers::Posts
+    field :links, resolver: Resolvers::Links
   end
 end
